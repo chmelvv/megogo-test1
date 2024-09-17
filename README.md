@@ -6,12 +6,12 @@ cd megogo-test1
 mvn clean test allure:serve
 ```
 
-It runs tests and open default browser with test report results.
+It runs tests and opens default browser with test report results.
 
 2. Other variant:
 ```
    docker pull chmelvv/megogo-test:latest
    docker run chmelvv/megogo-test:latest
 ```
-It will download docker image and run tests in container.
-Then you can see the test report in containers app/target/site/allure-maven-plugin/index.html
+It will download docker image and run tests in the container.
+Then you can see logs in the console and the test report in containers app/target/site/allure-maven-plugin/index.html
